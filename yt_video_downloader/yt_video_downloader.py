@@ -1,3 +1,5 @@
+#!usr/bin/env python3
+
 from pytube.__main__ import YouTube
 from pytube.exceptions import PytubeError
 import os

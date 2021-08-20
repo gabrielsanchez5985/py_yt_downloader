@@ -1,3 +1,5 @@
+#!usr/bin/env python3
+
 import tkinter as tk
 from tkinter import ttk
 from tkinter import filedialog
@@ -51,7 +53,7 @@ class Application(tk.Frame):
         self.lbl_save_in_frm_yt_download = ttk.Label(self.frm_inner_dir_widgets, text="Save in", anchor=tk.E)
         self.lbl_save_in_frm_yt_download.pack(side=tk.LEFT, padx=5)
 
-        self.icon = tk.PhotoImage(file=self.resource_path(r"icons\folder-24px.png"), width=15, height=15)
+        self.icon = tk.PhotoImage(file=self.resource_path(r"icons/folder-24px.png"), width=15, height=15)
 
         self.btn_ask_dir = ttk.Button(self.frm_inner_dir_widgets, command=self.set_etr_download_dir_path_frm_yt_download, image=self.icon)
         self.btn_ask_dir.pack(side=tk.LEFT, fill=tk.X, anchor=tk.W)
