@@ -1,4 +1,4 @@
-#!usr/bin/env python3
+#!/usr/bin/env python3
 
 import tkinter as tk
 from tkinter import ttk
@@ -28,7 +28,7 @@ class Application(tk.Frame):
         """
 
         # Change top-level window title
-        self.winfo_toplevel().title("PY YT Downloader 1.0")
+        self.winfo_toplevel().title("PY YT Downloader 1.1")
 
         # # Add main frame
         self.frm_main = ttk.Frame()
