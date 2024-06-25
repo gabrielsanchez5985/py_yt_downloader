@@ -56,7 +56,7 @@ You need Python 3.6 or higher.
 
 This repo contains the files necessary to build this project using `setuptools`. Refer to [their documentation](https://setuptools.pypa.io/en/latest/index.html) for details on building.
 
-### Building an .exe file
+### Building a .exe file
 
 You can use a Python package such as `Pyinstaller` to generate an `.exe` file for Windows or an executable for other OSs for that matter, if you want to. Refer to [their documentation](https://www.pyinstaller.org/) for details.
 
